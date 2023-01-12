@@ -1,0 +1,618 @@
+
+body {
+    padding: em;
+    margin: 0em;
+    background: #f2f6e9;
+    overflow-x: hidden; 
+    
+}
+.detail{
+   
+    width: 80%;
+}
+.navbar, footer {
+    background:black;
+    color: white;
+}
+.nav-link, .navbar-brand {
+    color: #CAFF95;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+}
+.nav-link:hover {
+    color: white;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+
+/*
+La doc Bootstrap est censé inclure des classes text-left et text-right pour aligner le text a gauche ou a droite.
+Je sais pas pourquoi elles n'existent pas alors que text-center existe, en tout cas je les ai faites moi même donc voila.
+*/
+.text-right {
+    text-align: right!important;
+}
+
+.text-left {
+    text-align: left!important;
+}
+
+#btn-violet{
+    background-color: blueviolet;
+    
+    
+   
+}
+#prodDetail{
+    margin-top: -16em;
+}
+#prodDetail2{
+    margin-top: -1em;
+}
+.icon{
+    justify-content: center;
+    height:40px; 
+    width:40px;
+    
+}
+.carte{
+    
+    width: 27em;
+    height:30em !important ;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 0;
+    border-radius: 20px  !important;
+    
+    
+   
+
+    
+    
+}
+.texte{
+    margin-top: 10px;
+}
+.carte2{
+    
+    width: 400px;
+    height:550px ;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 80px;
+    margin-right: 0;
+    padding: auto;
+   
+
+    
+    
+}
+ p > a {
+    color:#CAFF95;
+}
+
+.alcool-4 {
+    height: 40%;
+    width: 40%;
+}
+
+.prix{
+    
+    border-radius: 30px;
+    width: 25%;
+    border: 1em yellow;
+    
+    margin-bottom: 1em !important;
+    
+}
+.prix2{
+    
+    border-radius: 10px;
+    width: 10%;
+    height: 20%;
+    border: 1em yellow;
+    
+    
+}
+#index > img{
+    margin-left: 6em !important;
+    padding-top: 3em;
+    margin-bottom: -1em !important;
+}
+#index > h3{
+    margin-top: 1em !important;
+    margin-bottom: -1em;
+}
+.image{
+    margin-left: 1em !important;
+    padding-top: 1em;
+    margin-bottom: -1em !important;
+}
+#img-detail{
+    margin-top: 2em;
+    float: left;
+}
+#img-detail-prod{
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    padding-right: 1em;
+    list-style-type: none;
+   
+    
+    
+}
+#card-detail{
+    border-radius: 30px;
+    width: 30em;
+    height: 30em;
+    margin-left: 0em;
+    
+   
+}
+#card-detail-prod{
+    border-radius: 30px;
+    width: 5em;
+    height: 5em;
+    margin-left: -25em ;
+    margin-bottom: 1em;
+    background-color: white;
+    border: solid 2px;
+    border-color: #164F57;
+    
+   
+}
+#card-detail-img{
+    border-radius: 30px;
+    width: 70em;
+    height: 22em;
+    
+    
+   
+}
+.image-container{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    margin-bottom: 35.38px;
+    min-height: 238px;
+    width: 183px;
+    margin-top: 1em;
+    margin-left: 4em;
+}
+.overlap-group4{
+    align-items: flex-start;
+    background-color: var(--white);
+    box-shadow: 0px 4px 4px #00000040;
+    display: flex;
+    height: 220px;
+    margin-top: -3px;
+    width: 220px;
+    margin-left: 220px;
+    max-width: 605px;
+    padding: 9.7px 8.7px;
+}
+.image-4{
+    min-height: 90px;
+    margin-bottom: -1px;
+    object-fit: contain;
+    width: 98px;
+    box-shadow: 0px 4px 4px #00000040;
+}
+.image-3{
+    min-height: 90px;
+    margin-bottom: -1px;
+    object-fit: contain;
+    width: 98px;
+    box-shadow: 0px 4px 4px #00000040;
+}
+
+.image-2{
+
+
+    height: 200px;
+    object-fit: contain;
+    width: 200px;
+}
+
+ul{
+    margin-left: -2em;
+}
+
+#card-detail-imgs{
+    border-radius: 30px;
+    width: 46em;
+    height: 22em;
+    margin-left: 5em;
+    margin-top: 3em;
+    
+   
+}
+#card-detail-text{
+    border-radius: 30px;
+    width: 28em;
+    height: 23em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+   
+}
+.small-img{
+    border-radius: 30px;
+    width: 30em;
+    margin-left: -2em;
+    
+    
+   
+}
+#card-contenu{
+    border-radius: 30px;
+    width: 25em;
+    
+    
+}
+
+.texteProd{
+    display: inline-block;
+    
+    width:15rem;
+    word-wrap:normal;
+    
+    
+}
+#descrip{
+        
+    text-align: start;
+    margin-left: 0em;
+    margin-bottom: auto;
+    
+
+}
+
+
+/*responsive format pc */
+@media screen and (min-width: 650px) and (max-width:1000px)  {
+    #card-detail-prod{
+        border-radius: 30px;
+        width: 5em;
+        height: 5em;
+        margin-left: -30em ;
+        margin-bottom: -25em;
+        background-color: white;
+        border: solid 2px;
+        border-color: #164F57;
+        
+       
+    }
+   
+    #card-detail-text{
+       
+        
+        top:42em;
+        margin-left: 5em;
+        border-radius: 30px;
+        width: 16em;
+        height: 23em;
+        margin-bottom: 10em;
+        
+       
+    }
+    .image-container{
+        
+        
+        
+        align-items: flex-start;
+       
+        margin-bottom: 35.38px;
+        margin-left: 1em;
+        min-height: 238px;
+        
+        width: 183px;
+        height: 139px;
+    }
+    
+    .overlap-group4{
+        align-items: flex;
+        background-color: var(--white);
+        box-shadow: 0px 4px 4px #00000040;
+        display: flex;
+        height: 160px;
+        margin-left: 8em;
+        width: 155px;
+        max-width: 605px;
+        padding: 27.7px 17.7px;
+    }
+    
+    
+    .image-2{
+
+
+        height: 170px;
+        margin-left: -0.6em;
+        width: 160px;
+        margin-top: -2.4em;
+        
+    }
+    .image-4{
+        margin-top: 11em;
+        margin-left: -1em;
+        width: 90px;
+        height: 70px;
+        padding-top: 0.5em;
+    }
+    #categorie{
+        
+        
+    
+        margin-left: -0em;
+        margin-bottom: auto;
+        
+    }
+    #prix{
+        
+        
+        margin-left: 0px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    
+    #bordure{
+        text-align: center;
+        border: 10px;
+        height: 300px;
+        width: 350px;
+        margin-left: auto;
+        overflow: hidden;
+    }
+    #descrip{
+        
+        text-align: start;
+        margin-left: 0em;
+        margin-bottom: auto;
+        
+
+    }
+    #stock{
+        
+       
+        
+        margin-left: 0em !important;
+        margin-top: 1em;
+        margin-bottom: auto;
+    }
+    #bouton{
+        margin-left: auto !important;
+        margin-bottom: auto;
+      
+    }
+    h2{
+        margin-left: auto !important;
+
+    }
+    #prodDetail{
+        margin-top: -10em;
+        margin-left: -1em;
+        height: 1em;
+        width: 5em;
+        
+    }
+    #prodDetail2{
+        margin-top: -1em;
+        margin-left: -1em;
+        height: 1em;
+        width: 5em;
+
+        
+    }
+}
+/*Responsive pour le format entre téléphone et tablette */
+@media screen and (min-width: 600px) and (max-width:650px)  {
+    .overlap-group4{
+        align-items: flex;
+        background-color: var(--white);
+        box-shadow: 0px 4px 4px #00000040;
+        display: flex;
+        height: 157px;
+        margin-left: 8em;
+        width: 156px;
+        max-width: 605px;
+        padding: 27.7px 18.7px;
+    }
+    .image-3{
+        min-height: 90px;
+        margin-bottom: -1px;
+        object-fit: contain;
+        width: 86px;
+        margin-left: -4em;
+        box-shadow: 0px 4px 4px #00000040;
+    }
+    
+    #prodDetail{
+        margin-top: -16em;
+        margin-left: -4em;
+        width: 4.7em;
+        
+        
+    }
+    #prodDetail2{
+        width: 4.7em; 
+    }
+    .image-2{
+
+
+        height: 150px;
+        margin-left: -1em;
+        width: 150px;
+        margin-top: -1.5em;
+        
+    }
+    .image-container{
+
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5em;
+        gap: 46px;
+        margin-bottom: 35.38px;
+        min-height: 238px;
+        width: 183px;
+    }
+    .image-4{
+        
+        width: 86px;
+        height: 50px;
+        padding-top: 0.5em;
+    }
+    
+}
+/* Responsive format téléphone */
+@media screen and (min-width: 100px) and (max-width:600px)  {
+    #card-detail-prod{
+        border-radius: 30px;
+        width: 5em;
+        height: 5em;
+        margin-left: -30em ;
+        margin-bottom: -25em;
+        background-color: white;
+        border: solid 2px;
+        border-color: #164F57;
+        
+       
+    }
+    #card-detail-text{
+        position: absolute;
+        text-align: center;
+        top:24em;
+        margin-left: -1.5em;
+        border-radius: 30px;
+        width: 28em;
+        height: 23em;
+        margin-bottom: 10em;
+        
+       
+    }
+    
+    .overlap-group4{
+        align-items: flex;
+        background-color: var(--white);
+        box-shadow: 0px 4px 4px #00000040;
+        display: flex;
+        height: 159px;
+        /*margin-top: 137px;*/
+        margin-left: 126px;
+        width: 164px;
+        max-width: 605px;
+        padding: 27.7px 18.7px;
+        
+    }
+    
+    .image-container{
+        margin-top: 1em;
+        margin-bottom: 35.38px;
+        margin-left: -2em;
+        min-height: 238px;
+        width: 183px;
+        height: 139px;
+    }
+    .image-2{
+
+
+        height: 155px;
+        margin-left:-0.5em;
+        width: 140px;
+        margin-top: -1.5em;
+        
+    }
+    .image-4{
+        margin-top: 11em;
+        margin-left: -1em;
+        width: 90px;
+        height: 70px;
+        padding-top: 0.5em;
+    }
+    #categorie{
+        
+        
+        margin-left: 0.3em;
+    
+    }
+    #prix{
+        
+        text-align: center;
+        margin-left: 169px;
+        margin-bottom: 1em;
+    }
+    #bordure{
+        text-align: center;
+        border: 10px;
+        height: 300px;
+        width: 350px;
+        margin-left: auto;
+        overflow: hidden;
+    }
+    #descrip{
+        width: 9em;
+        text-align: start;
+        overflow: hidden;
+        margin-left: 10.5em;
+        
+        
+        
+    
+    }
+    #stock{
+        
+       
+        margin-top: 1em;
+        margin-left: 12.39em !important;
+        
+    }
+    #bouton{
+        margin-left: 1.3em !important;
+        margin-bottom: auto;
+      
+    }
+
+    h2{
+        text-align: start;
+        margin-left: 6.3em;
+      
+    }
+    #prodDetail{
+       
+        margin-left:1em;
+        margin-top: -10em;
+        width: 5em;
+        
+    }
+    #prodDetail2{
+        margin-left: 1em;
+        margin-bottom: -1em;
+        width: 5em;
+        
+        
+    }
+    .image-3{
+        min-height: 90px;
+        margin-bottom: -1px;
+        object-fit: contain;
+        width: 86px;
+        margin-left: -1em;
+        box-shadow: 0px 4px 4px #00000040;
+    }
+    
+    
+    
+}

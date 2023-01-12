@@ -1,0 +1,107 @@
+div > input{
+   margin-bottom: 2em;
+}
+form > h2{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.icon{
+    justify-content: center;
+    height:40px; 
+    width:40px;
+    
+}
+.carte{
+    
+    width: 20em;
+    height:20em ;
+   
+    padding: auto;
+}
+
+    
+    
+
+body {
+    padding: em;
+    margin: 0em;
+    background: #f2f6e9;
+    overflow-x: hidden; 
+    
+}
+.navbar, footer {
+    background:#FFDE59;
+}
+.nav-link, .navbar-brand {
+    color: #000;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+/*
+La doc Bootstrap est censé inclure des classes text-left et text-right pour aligner le text a gauche ou a droite.
+Je sais pas pourquoi elles n'existent pas alors que text-center existe, en tout cas je les ai faites moi même donc voila.
+*/
+.text-right {
+    text-align: right!important;
+}
+
+.text-left {
+    text-align: left!important;
+}
+@media(max-width:375px){
+    .carte{
+    
+        width: 10em;
+        height:10em ;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-right: 10px;
+       
+
+    
+    
+    }
+}
+
+
+
+@media ((min-width : 400) and (max-width:450) ) {
+    .carte{
+    
+        width: 5em;
+        height:5em ;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-right: 10px;
+       
+
+    
+    
+    }
+}
+label abbr{
+    position: absolute;
+    left: 0.4em;
+    color: red;
+
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation du 02/12/2022</title>
+</head>
+<style>
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    h1{
+        font-size: 3em;
+    }
+    p{
+        font-size: 1.25em;
+    }
+    .conteneur{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+        flex-wrap: wrap;
+    }
+    .prod{
+        width: 800px;
+        height: 400px;
+        background-image: url('frontOffice2.png');
+        background-size: cover;
+        box-shadow: 5px 5px 13px 1px rgba(0,0,0,0.62);
+    }
+    .admin{
+        width: 800px;
+        height: 400px;
+        background-image: url('backOffice2admin.png');
+        background-size: cover;
+        box-shadow: 5px 5px 13px 1px rgba(0,0,0,0.62);
+    }
+    .vendeur{
+        width: 800px;
+        height: 400px;
+        background-image: url('backOffice2vendeur.png');
+        background-size: cover;
+        box-shadow: 5px 5px 13px 1px rgba(0,0,0,0.62);
+    }
+    .txt{
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="txt">
+        <h1>Démo d'Alizon V2</h1>
+        <p>Présenté par l'équipe de la <strong>Random Corp</strong></p>
+        <h2>Statistiques du projet</h2>
+        <ul>Nombre de lignes de code (Sans framework) : <strong>~5000</strong></ul>
+        <ul>Nombre de commits : <strong>~300</strong> </ul>
+        <ul>Litre de café bu : <strong>Warning: </strong>Out of range value for column 'café'</ul>
+
+    </div>
+    <div class="conteneur">
+        <a href="..">
+        <div class="prod">
+        
+        </div>
+    </a>
+    <a href="../admin/user.php">
+        <div class="admin">
+
+        </div>
+    </a>
+    <a href="../vendeur/index.php">
+        <div class="vendeur">
+
+        </div>
+    </a>
+    </div>
+</body>
+</html>

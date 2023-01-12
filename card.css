@@ -1,0 +1,138 @@
+/*PARAMETRE GENERAL*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*CUSTOMISATION DES CARTES DE PRODUIT*/
+.conteneur-carte-produit{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.carte-produit-super-trop-belle{
+    border : 1px solid black;
+    border-radius : 10px;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+.bouton-carte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.bouton-detail-produit{
+    background-color: #0062AC;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+.carte-produit-super-trop-belle p{
+    font-weight: bold;
+}
+#image-produit{
+    background-color: transparent;
+}
+#img-prod{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:focus {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+/*CUSTOMISATION DU BANDEAU*/
+.bandeau-presentation{
+    background-color: #0062AC;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 3px solid red;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -50px;
+}
+#bouton-bandeau-decouvrir{
+    background-color: #FCB800;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.panneau-gauche{
+    margin-right: 150px;
+    /*border: 3px solid yellow;*/
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.panneau-droit{
+    /*border: 3px solid green;*/
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+}
+.bandeau-categorie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+}

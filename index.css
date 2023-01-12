@@ -1,0 +1,127 @@
+
+body {
+    padding: em;
+    margin: 0em;
+    background: #f2f6e9;
+    overflow-x: hidden;
+
+}
+.detail{
+
+    width: 80%;
+}
+.nav-link, .navbar-brand {
+    color: #0062AC;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+}
+.nav-link:hover {
+    color: black;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+/*
+La doc Bootstrap est censé inclure des classes text-left et text-right pour aligner le text a gauche ou a droite.
+Je sais pas pourquoi elles n'existent pas alors que text-center existe, en tout cas je les ai faites moi même donc voila.
+*/
+.text-right {
+    text-align: right!important;
+}
+
+.text-left {
+    text-align: left!important;
+}
+
+#btn-violet{
+    background-color: blueviolet;
+}
+.icon{
+    justify-content: center;
+    height:40px;
+    width:40px;
+}
+.carte{
+    width: 27em;
+    height:30em !important ;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 0;
+    border-radius: 20px  !important;
+}
+.texte{
+    margin-top: 10px;
+}
+.carte2{
+    width: 400px;
+    height:550px ;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 80px;
+    margin-right: 0;
+    padding: auto;
+}
+ p > a {
+    color:#0062AC;
+}
+
+.alcool-4 {
+    height: 40%;
+    width: 40%;
+}
+
+.prix{
+    border-radius: 30px;
+    width: 25%;
+    border: 1em yellow;
+    margin-bottom: 1em !important;
+}
+.prix2{
+    border-radius: 10px;
+    width: 10%;
+    height: 20%;
+    border: 1em yellow;
+}
+#index > img{
+    margin-left: 6em !important;
+    padding-top: 3em;
+    margin-bottom: -1em !important;
+}
+#index > h3{
+    margin-top: 1em !important;
+    margin-bottom: -1em;
+}
+.image{
+    margin-left: 1em !important;
+    padding-top: 1em;
+    margin-bottom: -1em !important;
+}
+#img-detail{
+    margin-top: 2em;
+}
+#card-detail{
+    border-radius: 30px;
+    width: 18em;
+    height:18em ;
+}
+#card-contenu{
+    border-radius: 30px;
+    width: 25em;
+    height:25em ;
+    padding-left: 3em;
+}

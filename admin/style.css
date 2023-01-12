@@ -1,0 +1,105 @@
+body{
+    background-color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background-color: #42475B;
+    padding: 10px;
+    color: white;
+    min-height: 100vh;
+    width: 250px !important;
+}
+
+article{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+article p{
+    font-size: 2em;
+}
+
+h1{
+    text-align: left;
+    font-size: 2em;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    margin-bottom:0.5em !important;
+}
+
+table{
+    margin:10px;
+}
+
+thead{
+    background-color: #8D9093;
+}
+
+thead tr th, tbody tr{
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+tbody tr td{
+    padding: 10px;
+    border: 1px solid #a0a0a0;
+}
+
+.titre{
+    background-color: #2790ff;
+    font-size: 2em;
+    width: 100%;
+}
+
+header{
+    box-shadow: 6px 5px 5px -6px #000000;
+    width: 100%;
+    position: relative;
+    top: 0; 
+    right: 0;
+    text-align: left !important;    
+}
+
+/*Gestion des liens du menu de navigation*/
+a {
+    text-decoration: none !important;
+    color: #fff !important;
+    display: block !important;
+    margin-top: 20px !important; 
+}
+
+
+a:link {
+    text-decoration: none !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+}
+
+a:focus {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #2790ff !important;
+}
+
+a:active {
+    text-decoration: none !important;
+}
+
+#dashboard-title{
+    font-size: 2em;
+    margin-top:0px !important;
+}
+

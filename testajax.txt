@@ -1,0 +1,1 @@
+salut je test ajax et je voudrais savoir comment faire pour que le formulaire soit envoyé en ajax et que la page soit rechargé en ajax aussi

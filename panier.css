@@ -1,0 +1,19 @@
+
+/* pour enlever les flèches lors de l'input number sur mobile*/
+@media screen and (max-width: 576px) {
+    /* Chrome, Safari, Edge, Opera */
+    .input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+
+    /* Firefox */
+    .input[type=number] {
+        -moz-appearance: textfield;
+    }
+  
+}
+#btn-violet{
+    background-color: blueviolet;
+}

@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+.navbar, footer {
+    background:#000000;
+    color:#fff;
+}
+.nav-link, .navbar-brand {
+    color: #CAFF95;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+}
+.nav-link:hover {
+    color: #fff;
+}
+
+a {
+    color:#CAFF95;
+}
+
+a:hover {
+    color:#fff;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color : #804ACA;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom : .5em;
+}
+
+/*
+La doc Bootstrap est censé inclure des classes text-left et text-right pour aligner le text a gauche ou a droite.
+Je sais pas pourquoi elles n'existent pas alors que text-center existe, en tout cas je les ai faites moi même donc voila.
+*/
+.text-right {
+    text-align: right!important;
+}
+
+.text-left {
+    text-align: left!important;
+}

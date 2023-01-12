@@ -1,0 +1,70 @@
+body{
+    background-color: #f2f2f2;
+}
+
+nav{
+    background-color: #2f93ff;
+    padding: 10px;
+    color: white;
+    min-height: 100vh;
+}
+
+label, .recherche{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+article{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+article p{
+    font-size: 2em;
+}
+
+header{
+    box-shadow: 0 0 10px rgb(166, 166, 166);
+}
+
+h1{
+    font-size: 2em;
+    padding: 10px;
+}
+
+table{
+    margin:10px;
+}
+
+thead{
+    background-color: #7ab7f8;
+}
+
+thead tr th, tbody tr{
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+tbody tr td{
+    padding: 10px;
+    border: 1px solid #a0a0a0;
+}
+
+a,a:link{
+    padding: 0px;
+    margin: 10px;
+}
+
+.titre{
+    background-color: #2790ff;
+    font-size: 2em;
+    width: 100%;
+}
+
+form div{
+    padding: 10px;
+}

@@ -1,0 +1,17 @@
+### OS generated files ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+### VisualStudioCode ###
+.vscode/*
+.history/
+*.vsix
+.history
+.ionide
+.vscode/*.code-snippets
+*.code-workspace
